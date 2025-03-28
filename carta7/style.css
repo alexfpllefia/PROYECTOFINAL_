@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+
+
+body {
+    font-family: 'Avenir';
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #222;
+}
+
+
+.header {
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: bold;
+    max-width: 1000px;
+    margin-left: 200px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    text-align: center;
+    max-width: 250px;
+}
+
+.card h2 {
+    font-size: 40px;
+    color: #999;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card p {
+    font-size: 22px;
+    color: #666;
+    text-align: left;
+}
+
+.image-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-card img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.overlay h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.overlay p {
+    margin: 5px 0 0;
+    font-size: 12px;
+}

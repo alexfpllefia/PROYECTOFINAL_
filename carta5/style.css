@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+
+body {
+    font-family: 'Avenir';
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 88px;
+    font-weight: bold;
+    max-width: 600px;
+    margin-left: 350px;
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.project {
+    max-width: 300px;
+    text-align: left;
+}
+
+.project h2 {
+    font-size: 40px;
+    color: #666;
+}
+
+.project p {
+    font-size: 20px;
+    color: #333;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
