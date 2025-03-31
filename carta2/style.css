@@ -16,7 +16,7 @@ body {
     max-width: 1200px;
     margin: auto;
 }
-.text-section {
+.texto-seccion {
     max-width: 400px;
 }
 h1 {
@@ -38,7 +38,7 @@ button {
     font-size: 16px;
     border-radius: 5px;
 }
-.galleria {
+.galeria {
     gap: 20px;
     max-width: 800px;
     display: inline-flex;
@@ -49,30 +49,22 @@ button {
    margin-top: 100px;
 }
 
-.galleria img {
+.galeria img {
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
 
-.images{
+.imagenes{
     justify-content: center;
     max-width: 800px;
     margin: 20px auto;
 }
 
-.bottom-galleria {
+.boton-galeria {
     display: flex;
     
 }
-.bottom-galleria div {
+.boton-galeria div {
     text-align: center;
-}
-.bottom-galleria span {
-    display: block;
-    padding-right: 300px;
-    font-size: 30px;
-    color: #aaa;
-    margin-bottom: 5px;
-    font-weight: bolder;
 }

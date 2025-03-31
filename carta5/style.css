@@ -9,7 +9,7 @@ body {
     color: black;
 }
 
-.projects {
+.projectos {
     text-align: center;
     padding: 50px 20px;
 }
@@ -22,29 +22,29 @@ h1 {
 }
 
 
-.project-container {
+.projecto-container {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 40px;
 }
 
-.project {
+.projecto {
     max-width: 300px;
     text-align: left;
 }
 
-.project h2 {
+.projecto h2 {
     font-size: 40px;
     color: #666;
 }
 
-.project p {
+.projecto p {
     font-size: 20px;
     color: #333;
 }
 
-.project img {
+.projecto img {
     width: 100%;
     height: auto;
     border-radius: 10px;
