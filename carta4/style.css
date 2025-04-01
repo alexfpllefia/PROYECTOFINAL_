@@ -2,92 +2,87 @@
 
 
   
-  body {
+body {
     font-family: 'Avenir';
-    background-color: #ffffff;
-    color: #1a1a1a;
-  }
-  
-  .seccion {
+    background-color: white;
+    color: black;
+}
+
+.container{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 500px;
-    margin: 60px auto;
-    padding: 20px;
-  }
+
+}
   
-  .imagen-lado {
-    flex: 1;
-    min-width: 300px;
-    max-width: 768px
-  }
+.seccion {
+    display: flex;
+    justify-content: space-between;
+
   
-  .imagen-lado img {
+   
+}
+
+  
+.imagen-lado img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    object-fit: cover;
-  }
+
+}
   
-  .contenido-lado {
-    flex: 1;
+.contenido-lado {
     padding: 40px;
-    min-width: 300px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-  }
+}
   
-  .contenido-lado h1 {
-    font-size: 2.5rem;
+.contenido-lado h1 {
+    font-size: 30px;
     margin-bottom: 20px;
-  }
+}
   
-  .descripcion {
-    font-size: 1rem;
+.descripcion {
+    font-size: 20px;
     margin-bottom: 20px;
     line-height: 1.6;
     color: #333;
-  }
+}
   
-  button {
-    background-color: #1a1a1a;
-    color: #fff;
+button {
+    background-color: black;
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 15px;
     margin-bottom: 40px;
     width: 20%;
-  }
+}
   
-  .articulo {
+.articulo {
     margin-bottom: 30px;
-  }
+}
   
-  .articulo h3 {
-    font-size: 1.2rem;
+.articulo h3 {
+    font-size: 1px;
     color: #888;
     margin-bottom: 8px;
-  }
+}
   
-  .articulo p {
-    font-size: 0.95rem;
+.articulo p {
+    font-size: 1px;
     color: #686868;
     line-height: 1.5;
     font-size: 20px;
     max-width: 450px;
-  }
-  
-
-.seccion {
-    flex-direction: column;
-    
 }
   
-    .contentido-lado {
-      padding: 20px 0;
+
+.contenido-lado {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+
     }
 
   

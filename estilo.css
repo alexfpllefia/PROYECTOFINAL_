@@ -11,7 +11,6 @@ header{
 }
 
 
-
 footer{
     text-align: center;
     background-color: black;
@@ -19,3 +18,23 @@ footer{
     margin-top: auto;
     height: 100px;
 }
+
+img{
+    width: 350px;
+}
+
+
+.prototipos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: auto;
+    margin-top: auto;
+    width: 75%;
+}
+.prototipo{
+    border: solid 1px;
+}
+
+

@@ -6,7 +6,7 @@ body {
     text-align: left;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: white;
 }
 .container {
     display: flex;
@@ -34,7 +34,6 @@ button {
     color: white;
     padding: 10px 20px;
     border: 2px solid;
-    cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
 }
