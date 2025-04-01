@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+body{
+    font-family: 'Avenir';
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    height: 100px;
+}
