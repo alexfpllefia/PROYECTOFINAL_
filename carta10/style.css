@@ -1,0 +1,102 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f2f2f2;
+}
+
+
+.seccion-cafe {
+  display: flex;
+  height: 100vh;
+}
+
+
+.lado-izquierdo {
+  flex: 1;
+  background-color: #f8f8f8;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.descripcion {
+  font-size: 16px;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+
+.boton {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.lado-derecho {
+  flex: 1;
+  background-color: #0d0d0d;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.imagen-central {
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+}
+
+.imagen-principal {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px lightgray;
+}
+
+
+.imagenes-secundarias {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
+  margin-right: 40px;
+}
+
+.bloque {
+  color: white;
+  text-align: left;
+  max-width: 300px;
+}
+
+.contador {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.miniatura {
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.mini-texto {
+  font-size: 14px;
+  color: #dcdcdc;
+}
